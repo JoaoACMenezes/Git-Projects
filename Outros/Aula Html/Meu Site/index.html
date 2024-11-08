@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um quiz interativo para testar seus conhecimento"
+    <title>Quiz para Programadores</title>
+</head>
+<body> 
+
+    <header>
+        <h1>Quiz interativo para programadores</h1>
+        <p>Teste seus conhecimentos em programação e veja qual pontuação você consegue fazer</p>
+    </header>
+
+    <main>
+        <!--Introdução-->
+        <section>
+            <h2>Sobre esse quiz</h2>
+
+            <p><strong>Esse quiz</strong> foi desenvolvido para testar seus conhecimentos em programação, <em>linguagens de programação</em>, conceitos básicos e mais</p>
+            <p>Você encontrará diferentes tipos de perguntas, incluindo múltipla escolha, texto e perguntas de data. <br> Desafie-se com esse quiz!</p>
+            <p>Você poderá encontrar alguns acrônimos como <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascade Style Sheet">CSS</abbr>, que são comumente usados em questões relacionadas ao desenvolvimento web</p>
+
+        </section>
+        <!--Pergunta 1: Múltipla escolha-->
+        <section>
+            <h2>
+                Pergunta 1: Qual linguagem é usada para estruturar pagunas web?
+            </h2>
+            <form action="">
+                <input type="radio" value="Python" id="p1a" name="pergunta1">
+                <label for="p1a">Python</label> <br>  
+                <input type="radio" value="HTML" id="p1b" name="pergunta1">
+                <label for="p1b">HTML</label> <br>
+                <input type="radio" value="JavaScript" id="p1c" name="pergunta1">
+                <label for="p1c">JavaScript</label> <br>
+                <input type="radio" value="Ruby" id="p1d" name="pergunta1">
+                <label for="p1d">Ruby</label> <br> 
+            </form>
+        </section>
+        <!--Pergunta 2: Texto-->
+        <section>
+         <h2>Pergunta 2: Na URL http://www.gogle.com o trecho "google.com" é o ________?</h2>   
+            <form action="">
+                <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta">
+            </form>
+        </section>
+        <!--Pergunta 3: Senha-->
+        <section>
+            <h2>Pergunta 3: Escreva um exemplo de senha forte</h2>
+            <form action="">
+                <input type="password" id="p3" name="pergunta3" placeholder="Digite uma senha">            
+            </form>
+        </section>
+        <!--Pergunta 4: Data-->
+        <section>
+            <h2>Em que ano o HTML lançou sua primeira versão</h2>
+            <form action="">
+                <input type="date" id="p4" name="pergunta4">
+            </form>
+        </section>
+        <!--
+        Pergunta 5: Seleção Multipla-->
+        <section>
+            <h2>Quais dessas tecnologias são consideradas linguagens de programação?</h2>
+            <form action="">
+                <input type="checkbox" id="p5a" name="pergunta5" value="JavaScript">
+                <label for="">JavaScript</label> 
+                <input type="checkbox" id="p5b" name="pergunta5" value="HTML">
+                <label for="">HTML</label> 
+                <input type="checkbox" id="p5c" name="pergunta5" value="Java">
+                <label for="">Java</label> 
+                <input type="checkbox" id="p5d" name="pergunta5" value="CSS">
+                <label for="">CSS</label> 
+            </form>
+        </section>
+    </main>
+
+    <footer></footer>
+    
+</body>
+</html>

@@ -1,30 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
-    background-image: linear-gradient(90deg, #772B8C, #221959);
+    font-size: 100%;
+    background: hsl(228, 12%, 92%);
+    display: flexbox;
+    flex-direction: row;
 }
 
-main {
-    background-color: white;
-    width: 600px;
-    padding: 10px;
-    margin: auto;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px #503cd595;
+.imagem {
+
 }
 
-h1 {
-    color: #294273;
-    text-align: center;
-    text-shadow: 1px 1px 2px #365594e7 ;
+.titulo {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
 }
 
-h2 {
-    color: #F22EAE;
+.nome {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    color: hsl(212,21%, 14%);
 }
 
-p {
-    text-align: justify;
+.paragrafo {
+    font-family: "Montserrat", sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+
+.preco {
+    display: flex;
+    flex-direction: row;
+ 
+    
+}
+
+.preco-desconto {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
 }
