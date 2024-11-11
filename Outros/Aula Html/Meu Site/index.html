@@ -55,7 +55,7 @@
         </section>
         <!--Pergunta 4: Data-->
         <section>
-            <h2>Em que ano o HTML lançou sua primeira versão</h2>
+            <h2>Pergunta 4: Em que ano o HTML lançou sua primeira versão</h2>
             <form action="">
                 <input type="date" id="p4" name="pergunta4">
             </form>
@@ -63,7 +63,7 @@
         <!--
         Pergunta 5: Seleção Multipla-->
         <section>
-            <h2>Quais dessas tecnologias são consideradas linguagens de programação?</h2>
+            <h2>Pergunta 5: Quais dessas tecnologias são consideradas linguagens de programação?</h2>
             <form action="">
                 <input type="checkbox" id="p5a" name="pergunta5" value="JavaScript">
                 <label for="">JavaScript</label> 
@@ -75,9 +75,115 @@
                 <label for="">CSS</label> 
             </form>
         </section>
+        <!--Pergunta 6: Upload de Arquivo-->
+        <section>
+            <h2>Pergunta 6: Faça o upload de um arquivo contendo HTML</h2>
+                <form action="">
+                    <input type="file" id="p6" name="pergunta6">
+                </form>
+        </section>
+        <!--Pergunta 7: Menu suspenso-->
+        <section>
+            <h2>Pergunta 7: Selecione o atributo do input que define o seu tipo:</h2>
+            <form action="">
+                <select id="p7" name="pergunta7" >
+                    <option value="id">id</option>
+                    <option value="tipe">type</option>
+                    <option value="placeholder">placeholder</option>
+
+                </select>
+            </form>
+        </section>
+        <!--Pergunta 8: Imagem-->
+        <section>
+            <h2>Pergunta 8: Qual a linguagem de programação é representada pelo logotipo abaixo? </h2>
+            <figure>
+                <img src="https://www.python.org/static/img/python-logo.png" alt="python-logo">
+                    <Figcaption>Exemplo de figura com endereço de URL.  </Figcaption>
+                <img src="imagem/python-logo.png" alt="python-logo">
+                    <figcaption>Exemplo de Figura armazenada localmente.</figcaption>
+            </figure> <br>
+            <input type="text" name="pergunta8" id="p8" placeholder="Digite sua resposta ">
+        </section>
+        <!--Tabela de Pontuação-->
+        <section>
+            <h2>Tabela de Pontuação</h2>
+            <table border="1"> 
+                <thead> <!--Cabeçalho da tabela-->
+                    <tr>
+                        <th>Pontuação</th> <!--<th> Cada item do cabeçalho da tabela-->
+                        <th>Avaliação</th>
+                    </tr>
+                </thead>
+
+                <tbody> <!--Corpo da tabela-->
+                    <tr>  <!--Table Row (Linha da tabela)-->
+                            <td>de 0 - 2</td> <!--Table Data (cada item da tabela)-->
+                            <td>Não desista! Cada tentativa é uma oportunidade de aprender!</td>
+                    </tr>
+                    <tr>
+                        <td>de 3 - 4</td>
+                        <td>Você ainda precisa melhorar. Que tal estudar mais sobre programação?</td>
+                    </tr>
+                    <tr>
+                        <td>de 5 a 7</td>
+                        <td>Seu conhecimento em programação está satisfatório</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Perfeito! Você está muito bem informado sobre programação!</td>
+                    </tr>
+                </tbody>
+                <tfoot> <!--Rodapé da Tabela-->
+                    <tr>
+                        <td colspan="2">Boa Sorte na próxima. Estude mais para melhorar</td> <!--colspan define quantas células irá usar, no caso 2-->
+                    </tr>
+                </tfoot>
+                
+            </table>
+        </section>
+        <!--Lista de Resposta-->
+        <section>
+            <h2>Verifique as suas respostas.</h2>
+            <details>
+                <summary>Clique aqui para ver as respostas do quiz.</summary>
+                    <ol>
+                        <li>HTML</li>
+                        <li>Domínio</li>
+                        <li>GTH15#@+</li>
+                        <li>1991</li>
+                        <li>JavaScript e Java</li>
+                        <li>O aqrquivo deve ter a extenção .HTML</li>
+                        <li>type</li>
+                        <li>Python</li> 
+                    </ol>
+            </details>
+        </section>
+        <!--Formulário de Feedback-->
+        <section>
+            <h2>Nos dê o seu Feedback</h2>
+            <form>
+                <fieldset>
+                    <legend>Informções de Contato</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="comentarios">Comentários:</label><br>
+                    <textarea name="comentarios" id="comentarios" rows="4" cols="50" placeholder="Digite seus comentários aqui."
+                    ></textarea><br>
+                    <button onclick="alert('Feedback Enviado com Sucesso')">Envie o Feedback</button>
+                </fieldset>
+            
+            </form>
+        </section>
+
     </main>
 
-    <footer></footer>
+    <footer>
+        <p>&copy;Quiz de programadores. Todos os Direitos reservados </p>
+        <p>Para conhecer outros Quizzes <a href="https://google.com" target="_blank">Clique Aqui</a></p>
+    </footer>
     
 </body>
 </html>
