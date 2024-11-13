@@ -12,7 +12,14 @@ body {
     background: hsl(228, 12%, 92%);
     display: flexbox;
     flex-direction: row;
+    
 }
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
 
 .imagem {
 
