@@ -8,19 +8,24 @@
 }
 
 body {
+
     font-size: 100%;
-    background: hsl(228, 12%, 92%);
+    background: hsl(30,38%, 92%);
     display: flexbox;
     flex-direction: row;
     
 }
 
 .main {
+    width: 300px;
     display: flex;
     flex-direction: row;
 }
 
-
+.oferta {
+    display: flex;
+    flex-direction: column;
+}
 .imagem {
 
 }

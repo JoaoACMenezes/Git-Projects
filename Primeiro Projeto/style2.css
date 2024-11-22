@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+.imagem-container {
+    width: 50%;
+    height: 400px;
+}
+
+.imagem {
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.parte-escrita {
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+} 
+ .perfume {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+ }
+
+ .texto1 {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    color: hsl(212,21%, 14%);
+ }
+
+ .texto2 {
+    font-family: "Montserrat", sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+ }
+
+ .preco {
+    font-family: "Montserrat", sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    text-decoration: line-through;
+    
+ }
+
+ .preco-desconto {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    margin-right: 10px;
+    font-size: 28px;
+ }
+ 
+
+
+ .botao {
+    font-family: "Montserrat", sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    background-color: hsl(158, 36%, 37%); 
+    border-radius: 10px;
+    align-items: center;
+    width: 100%;
+    height: 42px;
+    border: none;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+   
+}
+
+.icone-cart {
+    margin-right: 10px;
+}
