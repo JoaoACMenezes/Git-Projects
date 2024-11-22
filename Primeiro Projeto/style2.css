@@ -27,7 +27,6 @@ body {
     display: flex;
     align-items: center;
     border-radius: 10px;
-    border: 2px solid red;
 }
 .imagem-container {
     width: 50%;
