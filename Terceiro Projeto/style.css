@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    font-size: 15px;
+    border: 2px solid red;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center 
+    
+}
+
+main {
+    border: 2px solid turquoise;
+    background-color:hsl(244, 38%, 16%) ;
+    border-radius: 20px;
+    display: flex;
+    width: 900px;
+    height: 360px;
+
+}
+
+h1 {
+    font-family: "Inter", serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    font-family: "Lexend Deca", serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, .75);
+}
+
+.numeros {
+    font-family: "Inter", serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+
+.escrito {
+    font-family: "Lexend Deca", serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, .75);   
+}
+
+
+.parte-escrita {
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+
+.parte-baixo {
+    border: 2px solid white;
+    display: flex;
+}
+
+.imagem {
+    width: 50%;
+}
