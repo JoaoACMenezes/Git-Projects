@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  font-family: Inter, sans-serif;
 }
 
 body {
@@ -10,30 +13,50 @@ body {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: #1a1a1a;
+  font-size: 14px;
+  background-color: hsl(0, 0%, 8%);
   border: 2px solid red;
 }
 
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   align-content: space-around;
   border: 2px solid yellow;
+  background-color: hsl(0, 0%, 12%);
+  height: 400px;
 }
 
 .img {
   border: none;
   border-radius: 50%;
+  height: 50px;
 }
 
 .botao {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  height: 40vh;
 }
 .botao a {
   background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  width: 200px;
+  height: 30px;
+  border: 1px solid royalblue;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 10px;
+  line-height: 30px;
+}
+
+.dados-pessoais {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
